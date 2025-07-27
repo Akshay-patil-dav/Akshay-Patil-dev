@@ -4,7 +4,7 @@
 
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
   position: absolute;
   top: 0px;
 }
@@ -15,7 +15,7 @@
   /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(10px);
-  height: 90vh;
+  height: 100vh;
 }
 
 .bg-butt-front{
