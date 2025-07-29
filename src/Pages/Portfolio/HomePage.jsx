@@ -131,39 +131,40 @@ Counter START --> */}
 			{/* <!-- Counter item --> */}
 			<div className="col-sm-6 col-xl-3" >
 				<div className="d-flex justify-content-center align-items-center p-4  bg-opacity-15 rounded-3" style={{backgroundColor: "rgba(247, 195, 46, 0.15)"}}>
-					<span className="display-6 lh-1 text-warning mb-0"><i className="fas fa-tv"></i></span>
+					<span className="display-6 lh-1 text-warning mb-0"><i class="bi bi-envelope-at"></i></span>
 					<div className="ms-4 h6 fw-normal mb-0">
-						<div className="d-flex">
-							<h5 className="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="10"	data-purecounter-delay="200">0</h5>
-							<span className="mb-0 h5">K</span>
+            <p className="mb-0" style={{fontFamily:"arial black"}} >E-mail</p>
+						<div className="d-flex mt-2">
+							<h6 className="purecounter mb-0 fw-bold" style={{fontSize:"13px"}} data-purecounter-start="0" data-purecounter-end="10"	data-purecounter-delay="200">akshaypatil22082002@gmail.com</h6>
+							{/* <span className="mb-0 h5">K</span> */}
 						</div>
-						<p className="mb-0">Online Courses</p>
+						
 					</div>
 				</div>
 			</div>
 			{/* <!-- Counter item --> */}
 			<div className="col-sm-6 col-xl-3 " >
 				<div className="d-flex justify-content-center align-items-center p-4 bg-blue bg-opacity-10 rounded-3" style={{backgroundColor: "rgba(29, 59, 83, 0.1)"}}>
-					<span className="display-6 lh-1 text-blue mb-0"><i className="fas fa-user-tie"></i></span>
+					<span className="display-6 lh-1 text-blue mb-0"><i class="bi bi-building-check"></i></span>
 					<div className="ms-4 h6 fw-normal mb-0">
 						<div className="d-flex">
-							<h5 className="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="200" data-purecounter-delay="200">0</h5>
-							<span className="mb-0 h5">+</span>
+							<h5 className="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="200" data-purecounter-delay="200">0.9</h5>
+							<span className="mb-0 h5">+ / year</span>
 						</div>
-						<p className="mb-0">Expert Tutors</p>
+						<p className="mb-0">Work Experience</p>
 					</div>
 				</div>
 			</div>
 			{/* <!-- Counter item --> */}
 			<div className="col-sm-6 col-xl-3">
 				<div className="d-flex justify-content-center align-items-center p-4 bg-purple bg-opacity-10 rounded-3">
-					<span className="display-6 lh-1 text-purple mb-0"><i className="fas fa-user-graduate"></i></span>
+					<span className="display-6 lh-1 text-purple mb-0"><i class="bi bi-journal-bookmark-fill"></i></span>
 					<div className="ms-4 h6 fw-normal mb-0">
 						<div className="d-flex">
-							<h5 className="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="60"	data-purecounter-delay="200">0</h5>
-							<span className="mb-0 h5">K+</span>
+							<h5 className="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="60"	data-purecounter-delay="200">B.C.A</h5>
+							<span className="mb-0 h5"></span>
 						</div>
-						<p className="mb-0">Online Students</p>
+						<p className="mb-0">Students / Graduation</p>
 					</div>
 				</div>
 			</div>
@@ -173,8 +174,8 @@ Counter START --> */}
 					<span className="display-6 lh-1 text-info mb-0"><i className="bi bi-patch-check-fill"></i></span>
 					<div className="ms-4 h6 fw-normal mb-0">
 						<div className="d-flex">
-							<h5 className="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="6" data-purecounter-delay="300">0</h5>
-							<span className="mb-0 h5">K+</span>
+							<h5 className="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="6" data-purecounter-delay="300">Java FSD AI / ML</h5>
+							
 						</div>
 						<p className="mb-0">Certified Courses</p>
 					</div>

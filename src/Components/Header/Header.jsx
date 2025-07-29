@@ -20,9 +20,7 @@ export default function Header() {
     position: "fixed",
     width: "100%",
     backgroundColor: scrolled ? "#ffffffff" : "transparent",
-   
-
-    transition: "background-color 0.5s ease",
+    transition: "background-color 0.01s ease",
     // zIndex: 999,
   };
 
