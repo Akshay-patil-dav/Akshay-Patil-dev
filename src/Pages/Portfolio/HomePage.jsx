@@ -1,4 +1,5 @@
 import React from "react";
+import ToggleCard from "../../Components/Cards/ToggleCard";
 
 
 const images = [
@@ -217,6 +218,7 @@ Counter END --> */}
         </div>
       </section>
 
+            <ToggleCard />
 
     </>
   );
