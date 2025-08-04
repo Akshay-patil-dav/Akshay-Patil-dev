@@ -203,7 +203,7 @@ Counter END --> */}
         </div>
       </section>
       <section className="p-5 overflow-hidden bg-transparent">
-        <div className=""></div>
+        
         <div className="slider-track">
           <div className="slider-items-1">
             {[...images, ...images].map((img, index) => (

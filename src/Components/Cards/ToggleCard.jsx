@@ -3,21 +3,17 @@ import React from "react";
 function Cards() {
   return (
     <>
-      <div className="card" style={{ width: "18rem" }}>
+      <div className="card" style={{ width: "10rem" , padding:"0px"}}>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFYqoKTu_o3Zns2yExbst2Co84Gpc2Q1RJbA&s"
           className="card-img-top"
           alt="..."
+          style={{objectFit:"cover"}}
         />
         <div className="card-body">
-          {/* <h5 className="card-title">Card title</h5> */}
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
-          </p>
-          <a href="#" className="btn btn-primary">
-            Go somewhere
-          </a>
+          <h5 className="card-title">Card title</h5>
+        
+          
         </div>
       </div>
     </>
@@ -27,7 +23,7 @@ function Cards() {
 export default function ToggleCard() {
   return (
     <>
-      <div>
+      <divz>
         <ul
           className="nav nav-pills container rounded-4 bg-info-subtle  nav-pills-bg-soft justify-content-sm-center mb-4 p-2 px-3 "
           id="pills-tab"
@@ -104,24 +100,29 @@ export default function ToggleCard() {
             </button>
           </li>
         </ul>
-      </div>
+      </divz>
       <div
         className="tab-content nav nav-pills container rounded-4   nav-pills-bg-soft justify-content-sm-center mb-4 p-2 px-3 "
         id="pills-tabContent"
       >
         <div
-          className="tab-pane fade show active"
+          className="tab-pane fade show active "
           id="pills-home"
           role="tabpanel"
           aria-labelledby="pills-home-tab"
           tabindex="0"
         >
-          {/* * */}
-          <Cards />
-          {/* You can render multiple Cards like this: */}
-          <Cards />
-          
-          {/* * */}
+          <div className="row gap-5 " style={{justifyContent:"center"}}>
+            {/* * */}
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+
+            {/* * */}
+          </div>
         </div>
         <div
           className="tab-pane fade"
