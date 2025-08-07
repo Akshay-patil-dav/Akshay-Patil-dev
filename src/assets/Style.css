@@ -3,3 +3,177 @@
 @import url("https://folio.webestica.com/assets/vendor/swiper/swiper-bundle.min.css");
 @import url("https://folio.webestica.com/assets/vendor/bootstrap-icons/bootstrap-icons.css");
 
+
+
+/* Timeline Container */
+.timeline-container {
+  position: relative;
+  padding: 2rem 0;
+}
+
+/* Timeline Line */
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, #007bff, #28a745, #ffc107, #17a2b8, #6c757d, #343a40);
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Timeline Items */
+.timeline-item {
+  position: relative;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Timeline Content */
+.timeline-content {
+  width: calc(50% - 30px);
+  padding: 0 20px;
+}
+
+/* Timeline Markers */
+.timeline-marker {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border: 4px solid #007bff;
+  border-radius: 50%;
+  z-index: 3;
+  box-shadow: 0 0 0 4px #fff;
+}
+
+/* Left Items */
+.timeline-item-left .timeline-content {
+  margin-left: 0;
+  margin-right: auto;
+  text-align: right;
+}
+
+.timeline-item-left .timeline-marker {
+  border-color: #007bff;
+}
+
+/* Right Items */
+.timeline-item-right .timeline-content {
+  margin-left: auto;
+  margin-right: 0;
+  text-align: left;
+}
+
+.timeline-item-right .timeline-marker {
+  border-color: #28a745;
+}
+
+/* Specific Marker Colors */
+#marker-2020 { border-color: #007bff; }
+#marker-2021 { border-color: #28a745; }
+#marker-2022 { border-color: #ffc107; }
+#marker-2023 { border-color: #17a2b8; }
+#marker-2024 { border-color: #6c757d; }
+#marker-2025 { border-color: #343a40; }
+
+/* Card Hover Effects */
+.timeline-item .card {
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.timeline-item .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+.timeline-item-left .card:hover {
+  border-left-color: #007bff;
+}
+
+.timeline-item-right .card:hover {
+  border-left-color: #28a745;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .timeline-line {
+    left: 30px;
+  }
+  
+  .timeline-item {
+    margin: 2rem 0;
+  }
+  
+  .timeline-content {
+    width: calc(100% - 60px);
+    margin-left: 60px !important;
+    text-align: left !important;
+  }
+  
+  .timeline-marker {
+    left: 30px;
+  }
+  
+  .timeline-item-left .timeline-content,
+  .timeline-item-right .timeline-content {
+    margin-left: 60px;
+    margin-right: 0;
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .timeline-container {
+    padding: 1rem 0;
+  }
+  
+  .timeline-item {
+    margin: 1.5rem 0;
+  }
+  
+  .timeline-content {
+    padding: 0 10px;
+  }
+  
+  .card-body {
+    padding: 1.5rem !important;
+  }
+  
+  .badge {
+    font-size: 0.75rem !important;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+  }
+}
+
+/* Animation for timeline items */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.timeline-item {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Staggered animation delays */
+#milestone-2020 { animation-delay: 0.1s; }
+#milestone-2021 { animation-delay: 0.2s; }
+#milestone-2022 { animation-delay: 0.3s; }
+#milestone-2023 { animation-delay: 0.4s; }
+#milestone-2024 { animation-delay: 0.5s; }
+#milestone-2025 { animation-delay: 0.6s; }
