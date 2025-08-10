@@ -32,12 +32,24 @@ export default  function AToggleCardpp() {
                     <div className="card shadow-sm border-0" id="card-company-founded">
                       <div className="card-body p-4">
                         <div className="d-flex align-items-center mb-2">
-                          <span className="badge bg-primary fs-6 me-3" id="year-2020">2020</span>
+                          <span className="badge bg-primary fs-6 me-3" id="year-2020">2024 - Present</span>
                         </div>
-                        <h4 className="card-title fw-bold mb-2" id="title-company-founded">Company Founded</h4>
+                        <h6> <b>Full-Time</b> (Intern)</h6>
+                        <h4 className="card-title fw-bold mb-2" id="title-company-founded">
+                          <a href="https://www.linkedin.com/company/mnjsoftware/posts/?feedView=all" style={{textDecoration:"none"}}>Front-End Developer</a>
+                        </h4>
                         <p className="card-text text-muted mb-0" id="desc-company-founded">
-                          Started with a vision to revolutionize digital collaboration
+                       Work As Full-Time at <b> MNJ Software </b>  from last <b>11 Month's</b>
                         </p>
+                        <div className='mt-3 '>
+                           <a href="https://www.mnjsoftware.com/" className='mx-2 ' style={{textDecoration:"none"}}>
+                       Company Page
+                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="mx-1 bi bi-link-45deg" viewBox="0 0 16 16">
+  <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+  <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+</svg>
+                           </a>
+                        </div>
                       </div>
                     </div>
                   </div>
