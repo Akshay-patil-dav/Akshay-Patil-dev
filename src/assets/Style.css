@@ -177,3 +177,12 @@
 #milestone-2023 { animation-delay: 0.4s; }
 #milestone-2024 { animation-delay: 0.5s; }
 #milestone-2025 { animation-delay: 0.6s; }
+
+   .small-img {
+      width: 200px; /* small size */
+      height: 200px;
+      object-fit: cover; /* keep proportion inside circle */
+      border: 10px solid rgb(255, 255, 255);
+    }
+
+    

@@ -51,6 +51,9 @@ export default function HomePage() {
           <div className="row">
             <div className="col-xxl-8 text-center mx-auto">
               {/* <!-- Pre title --> */}
+              <div className="p-3 ">
+                <img className="rounded-circle small-img" src="https://media.licdn.com/dms/image/v2/D5603AQEuZTK5NUjyOg/profile-displayphoto-crop_800_800/B56ZgmWjv6G0AM-/0/1752990113051?e=1758153600&v=beta&t=-UFafvNCZcJWyu_ut-ihse7VtByo3yL4KWcYZ8poQjI" alt="" />
+              </div>
               <h1
                 className="small fw-medium bg-secondary-grad rounded px-2 px-sm-3 py-2 mb-3 d-inline-flex"
                 style={{ background: "#5965ff5c", color: "blue" }}
