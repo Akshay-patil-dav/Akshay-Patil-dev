@@ -34,7 +34,7 @@ export default function Header() {
         id="navbarSupportedContent"
       >
         <div className="container-fluid mx-4">
-          <a className="navbar-brand d-flex" href="#">
+          <a className="navbar-brand d-flex mt-4" href="#">
             <h3 className="d-flex">
               <b style={{ color: "red" }}>
                 <svg
