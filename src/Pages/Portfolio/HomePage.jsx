@@ -57,7 +57,7 @@ export default function HomePage() {
               </div>
               <h1
                 className="small fw-medium bg-secondary-grad rounded px-2 px-sm-3 py-2 mb-3 d-inline-flex"
-                style={{ background: "#5965ff5c", color: "blue" }}
+                style={{ background: "white", color: "blue" }}
               >
                 {" "}
                 <svg
@@ -75,18 +75,18 @@ export default function HomePage() {
 
               {/* <!-- Title --> */}
               <h1
-                className="mb-3 lh-base"
+                className="mb-3 lh-base text-white"
                 style={{ fontFamily: "arial black" }}
               >
                 <b>welcome to my profile </b>
               </h1>
               {/* <!-- Title --> */}
-              <h3 className="mb-3 lh-base">
-                <b style={{ color: "#7000ff" }}>I'm Akshay Patil </b>
+              <h3 className="mb-3 lh-base ">
+                <b  style={{ color: "white",backgroundColor:"#784dc1", borderRadius:"10px" , border:"2px solid white", padding:"6px 20px" }}>I'm Akshay Patil </b>
               </h3>
 
               {/* <!-- Desc --> */}
-              <p className="mb-4 lead">
+              <p className="mb-4 lead" style={{color:"white"}}>
                 From Last 9 Month’s i work at MNJ Software as an Frontend
                 Developer intern Full-time.
                 <br />
@@ -153,7 +153,7 @@ Counter START --> */}
 					<span className="display-6 lh-1 text-blue mb-0"><i class="bi bi-building-check"></i></span>
 					<div className="ms-4 h6 fw-normal mb-0">
 						<div className="d-flex">
-							<h5 className="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="200" data-purecounter-delay="200">0.9</h5>
+							<h5 className="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="200" data-purecounter-delay="200">1</h5>
 							<span className="mb-0 h5">+ / year</span>
 						</div>
 						<p className="mb-0">Work Experience</p>

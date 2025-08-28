@@ -1,10 +1,9 @@
 .header-bg {
   /* background: radial-gradient(circle, #78b4f8, #ffffff, #6366f1); pink-500 → purple-500 → indigo-500 */
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb1CL9uOAHk4OwEA-gUXt6eSK7J-SARUQtw7krtAjs9BcUHiXCuTJsXmPgZt7z3R1U2r0&usqp=CAU");
-
+  background-image: url("https://img.freepik.com/free-vector/gradient-style-ui-ux-background_52683-69621.jpg");
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 70vh;
   position: absolute;
   top: 0px;
 }
@@ -16,6 +15,8 @@
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(10px);
   height: 100vh;
+  position: absolute;
+  top: 0px;
 }
 
 .bg-butt-front{
