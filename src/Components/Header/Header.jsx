@@ -25,7 +25,11 @@ export default function Header() {
       <nav
       className="navbar navbar-expand-lg"
       id="navbarSupportedContent"
-    
+    style={{
+        transition: "all 0.3s ease",
+        backgroundColor: colorChange ? "rgba(255, 255, 255, 0.04)" : "transparent",
+        boxShadow: colorChange ? " 0 4px 30px rgba(0, 0, 0, 0.1)" : "none",
+      }}
     >
       <div className="container-fluid mx-4">
         <a className="navbar-brand d-flex mt-4" href="#">
