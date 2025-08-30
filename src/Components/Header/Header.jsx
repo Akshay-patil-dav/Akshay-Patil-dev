@@ -72,18 +72,18 @@ export default function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: colorChange ? "black" : "white" }}>
-                Link
+              <a className="nav-link" href="#" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
+                About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: colorChange ? "black" : "white" }}>
-                Link
+              <a className="nav-link" href="#" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
+                Project
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: colorChange ? "black" : "white" }}>
-                Link
+              <a className="nav-link" href="#" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
+                Blog
               </a>
             </li>
           </ul>
