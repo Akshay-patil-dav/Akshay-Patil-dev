@@ -1,11 +1,35 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import './timeline.css';
+import car from '../img/Car.png';
+import { useState, useEffect } from "react";
+
 
 export default function AToggleCardpp() {
+
+   const [colorChange, setColorChange] = useState(false);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+       if (window.scrollY > 1300) {
+        setColorChange(true);
+      } else {
+        setColorChange(false);
+      }
+      };
+  
+      window.addEventListener("scroll", handleScroll);
+
+    // Cleanup when component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="min-vh-100" id="journey-main-container">
       {/* Header Section */}
+
       <section className="py-5 bg-light" id="journey-header-section">
         <div className="container">
           <div className="row justify-content-center">
@@ -20,13 +44,20 @@ export default function AToggleCardpp() {
                 <span className="text-primary fw-semibold">
                   working professional
                 </span>{" "}
-               
+
               </p>
             </div>
           </div>
         </div>
       </section>
-
+      <div className="Car-image">
+        <img src={car} alt=""
+        style={{
+        transition: "all 0.3s ease",
+        position: colorChange ? "fixed" : "absolute",
+      }}
+       />
+      </div>
       {/* Timeline Section */}
       <section className="py-5" id="journey-timeline-section">
         <div className="container">
@@ -141,11 +172,11 @@ export default function AToggleCardpp() {
                           className="card-text text-muted mb-0"
                           id="desc-company-founded"
                         >
-                         I successfully completed the <b>Full Stack Developer</b> course with an from <b>SEED Infotech Ltd</b> , shihagad rode ,  <b>pune</b>., which collaboration with the <b> National Skill Development Corporation  (NSDC)</b> .
-                        I  <b> securing A+ grade</b></p>
-                        
-                        
-                        
+                          I successfully completed the <b>Full Stack Developer</b> course with an from <b>SEED Infotech Ltd</b> , shihagad rode ,  <b>pune</b>., which collaboration with the <b> National Skill Development Corporation  (NSDC)</b> .
+                          I  <b> securing A+ grade</b></p>
+
+
+
                         <div className="mt-3 ">
                           <a
                             href="https://www.seedinfotech.com/"
@@ -188,7 +219,7 @@ export default function AToggleCardpp() {
                             className="badge bg-warning fs-6 me-3"
                             id="year-2022"
                           >
-                            2024 
+                            2024
                           </span>
                         </div>
                         <h6>
@@ -210,7 +241,7 @@ export default function AToggleCardpp() {
                           className="card-text text-muted mb-0"
                           id="desc-company-founded"
                         >
-                         I worked as a Full-Time at <b>Quadiro Technologies LLP</b> from  <b>Aug 2024</b> to <b>Oct 2024</b>
+                          I worked as a Full-Time at <b>Quadiro Technologies LLP</b> from  <b>Aug 2024</b> to <b>Oct 2024</b>
                         </p>
                         <div className="mt-3 ">
                           <a
@@ -257,7 +288,7 @@ export default function AToggleCardpp() {
                             2024
                           </span>
                         </div>
-                       <h6>
+                        <h6>
                           {" "}
                           <b>Full-Time</b> (Intern)
                         </h6>
@@ -269,7 +300,7 @@ export default function AToggleCardpp() {
                             href="https://www.linkedin.com/company/logicowise-systems/"
                             style={{ textDecoration: "none" }}
                           >
-                            Web Development 
+                            Web Development
                           </a>
                         </h4>
                         <p
@@ -322,34 +353,34 @@ export default function AToggleCardpp() {
                             className="badge bg-secondary fs-6 me-3"
                             id="year-2024"
                           >
-                          2021 - 2024
+                            2021 - 2024
                           </span>
                         </div>
                         <h6>
                           {" "}
                           <b>Full-Time</b> (student)
                         </h6>
-                       <div className="d-flex">
-                         <h4
-                          className="card-title fw-bold mb-2"
-                          id="title-company-founded"
-                        >
-                          <a
-                            href="https://www.unishivaji.ac.in/"
-                            style={{ textDecoration: "none" }}
+                        <div className="d-flex">
+                          <h4
+                            className="card-title fw-bold mb-2"
+                            id="title-company-founded"
                           >
-                           B.C.A
-                          </a>
-                        </h4>
-                        <h6 className="mt-1 mx-2">
-                           ( Bachelor of Computer Applications )
-                        </h6>
-                       </div>
+                            <a
+                              href="https://www.unishivaji.ac.in/"
+                              style={{ textDecoration: "none" }}
+                            >
+                              B.C.A
+                            </a>
+                          </h4>
+                          <h6 className="mt-1 mx-2">
+                            ( Bachelor of Computer Applications )
+                          </h6>
+                        </div>
                         <p
                           className="card-text text-muted mb-0"
                           id="desc-company-founded"
                         >
-                         I completed my Bachelor Degree from <b>P.D.V.P. College, Tasgaon</b>, affiliated with <b> Shivaji University, Kolhapur</b>, from <b> March 2021</b> to <b>April 2024</b> , <b>securing 73.34% (CGPA: 7.7)</b>.
+                          I completed my Bachelor Degree from <b>P.D.V.P. College, Tasgaon</b>, affiliated with <b> Shivaji University, Kolhapur</b>, from <b> March 2021</b> to <b>April 2024</b> , <b>securing 73.34% (CGPA: 7.7)</b>.
                         </p>
                         <div className="mt-3 ">
                           <a
@@ -357,7 +388,7 @@ export default function AToggleCardpp() {
                             className="mx-2 "
                             style={{ textDecoration: "none" }}
                           >
-                          unishivaji.ac.in
+                            unishivaji.ac.in
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width="20"

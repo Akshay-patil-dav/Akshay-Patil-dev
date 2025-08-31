@@ -10,7 +10,7 @@
 .timeline-container {
   position: relative;
   padding: 2rem 0;
-  
+
 }
 
 /* Timeline Line */
@@ -76,12 +76,29 @@
 }
 
 /* Specific Marker Colors */
-#marker-2020 { border-color: #007bff; }
-#marker-2021 { border-color: #28a745; }
-#marker-2022 { border-color: #ffc107; }
-#marker-2023 { border-color: #17a2b8; }
-#marker-2024 { border-color: #6c757d; }
-#marker-2025 { border-color: #343a40; }
+#marker-2020 {
+  border-color: #007bff;
+}
+
+#marker-2021 {
+  border-color: #28a745;
+}
+
+#marker-2022 {
+  border-color: #ffc107;
+}
+
+#marker-2023 {
+  border-color: #17a2b8;
+}
+
+#marker-2024 {
+  border-color: #6c757d;
+}
+
+#marker-2025 {
+  border-color: #343a40;
+}
 
 /* Card Hover Effects */
 .timeline-item .card {
@@ -91,7 +108,7 @@
 
 .timeline-item .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
 }
 
 .timeline-item-left .card:hover {
@@ -107,21 +124,21 @@
   .timeline-line {
     left: 30px;
   }
-  
+
   .timeline-item {
     margin: 2rem 0;
   }
-  
+
   .timeline-content {
     width: calc(100% - 60px);
     margin-left: 60px !important;
     text-align: left !important;
   }
-  
+
   .timeline-marker {
     left: 30px;
   }
-  
+
   .timeline-item-left .timeline-content,
   .timeline-item-right .timeline-content {
     margin-left: 60px;
@@ -134,23 +151,23 @@
   .timeline-container {
     padding: 1rem 0;
   }
-  
+
   .timeline-item {
     margin: 1.5rem 0;
   }
-  
+
   .timeline-content {
     padding: 0 10px;
   }
-  
+
   .card-body {
     padding: 1.5rem !important;
   }
-  
+
   .badge {
     font-size: 0.75rem !important;
   }
-  
+
   .card-title {
     font-size: 1.1rem;
   }
@@ -162,6 +179,7 @@
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -173,18 +191,52 @@
 }
 
 /* Staggered animation delays */
-#milestone-2020 { animation-delay: 0.1s; }
-#milestone-2021 { animation-delay: 0.2s; }
-#milestone-2022 { animation-delay: 0.3s; }
-#milestone-2023 { animation-delay: 0.4s; }
-#milestone-2024 { animation-delay: 0.5s; }
-#milestone-2025 { animation-delay: 0.6s; }
+#milestone-2020 {
+  animation-delay: 0.1s;
+}
 
-   .small-img {
-      width: 200px; /* small size */
-      height: 200px;
-      object-fit: cover; /* keep proportion inside circle */
-      border: 10px solid rgb(255, 255, 255);
-    }
+#milestone-2021 {
+  animation-delay: 0.2s;
+}
 
-    
+#milestone-2022 {
+  animation-delay: 0.3s;
+}
+
+#milestone-2023 {
+  animation-delay: 0.4s;
+}
+
+#milestone-2024 {
+  animation-delay: 0.5s;
+}
+
+#milestone-2025 {
+  animation-delay: 0.6s;
+}
+
+.small-img {
+  width: 200px;
+  /* small size */
+  height: 200px;
+  object-fit: cover;
+  /* keep proportion inside circle */
+  border: 10px solid rgb(255, 255, 255);
+}
+
+
+
+
+.Car-image img {
+  /* position: fixed; */
+  align-items: center;
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 10%;
+  height: auto;
+  z-index: 5;
+  animation: float 3s ease-in-out infinite;
+
+}
