@@ -1,43 +1,50 @@
  /* Gradient background for premium look */
-  .footer-section {
-    /* background: linear-gradient(135deg, #2c3e50, #4ca1af); */
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-  }
-
-  .text-gradient {
-    background: linear-gradient(45deg, #ff6b6b, #6c5ce7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  /* Links */
-  .footer-link {
-    display: inline-block;
-    color: #ddd;
-    text-decoration: none;
-    margin-bottom: 8px;
-    transition: color 0.3s ease;
-  }
-
-  .footer-link:hover {
-    color: #fff;
-    font-weight: 500;
-  }
-
-  /* Social Icons */
-  .social-icon {
-    /* background: rgba(255, 255, 255, 0.1); */
-    color: #fff;
-    font-size: 1.3rem;
-    margin-right: 10px;
-    padding: 10px 14px;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-  }
-
-  .social-icon:hover {
-    background: #fff;
-    color: #000000;
-    transform: translateY(-3px);
-  }
+ 
+ footer {
+     position: absolute;
+     width: 100%;
+     z-index: 7;
+ }
+ 
+ .footer-section {
+     /* background: linear-gradient(135deg, #2c3e50, #4ca1af); */
+     border-top-left-radius: 40px;
+     border-top-right-radius: 40px;
+ }
+ 
+ .text-gradient {
+     background: linear-gradient(45deg, #ff6b6b, #6c5ce7);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ /* Links */
+ 
+ .footer-link {
+     display: inline-block;
+     color: #ddd;
+     text-decoration: none;
+     margin-bottom: 8px;
+     transition: color 0.3s ease;
+ }
+ 
+ .footer-link:hover {
+     color: #fff;
+     font-weight: 500;
+ }
+ /* Social Icons */
+ 
+ .social-icon {
+     /* background: rgba(255, 255, 255, 0.1); */
+     color: #fff;
+     font-size: 1.3rem;
+     margin-right: 10px;
+     padding: 10px 14px;
+     border-radius: 50%;
+     transition: all 0.3s ease;
+ }
+ 
+ .social-icon:hover {
+     background: #fff;
+     color: #000000;
+     transform: translateY(-3px);
+ }

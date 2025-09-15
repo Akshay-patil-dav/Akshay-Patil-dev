@@ -1,0 +1,38 @@
+.box-none {
+    background-color: white;
+    width: 100%;
+    bottom: -150px;
+    z-index: 6;
+    position: absolute;
+    height: 6%;
+}
+
+#journey-header-section {
+    position: absolute;
+    width: 100%;
+    z-index: 7;
+}
+
+#project-slider-sec {
+    position: absolute;
+    top: -70px;
+    z-index: -2;
+    /* background-color: blue; */
+    width: 100%;
+    overflow: hidden;
+}
+
+#project-header-section {
+    /* background-color: red; */
+    margin-top: 40px;
+    font-family: sans-serif;
+    padding: 50px 0;
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}

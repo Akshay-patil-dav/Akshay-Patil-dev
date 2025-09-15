@@ -27,7 +27,7 @@ export default function AToggleCardpp() {
   }, []);
 
   return (
-    <div className="min-vh-100" id="journey-main-container">
+    <div className="min-vh-100 mt-5" id="journey-main-container">
       {/* Header Section */}
 
       <section className="py-5 bg-light" id="journey-header-section">
@@ -50,7 +50,8 @@ export default function AToggleCardpp() {
           </div>
         </div>
       </section>
-      <div className="Car-image">
+      <br/><br/>  <br/><br/>
+      <div className="Car-image mt-5">
         <img src={car} alt=""
         style={{
         transition: "all 0.3s ease",
