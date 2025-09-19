@@ -1,6 +1,7 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet , Link , useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { path } from "framer-motion/client";
 
 export default function Header() {
 
@@ -19,6 +20,11 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
+  const location = useLocation();
+  let path_Url = location.pathname;
+
+ 
 
   return (
     <>
@@ -66,24 +72,25 @@ export default function Header() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto d-flex gap-4 ">
             <li className="nav-item">
-              <a
-                className="nav-link active"
+              <Link
+                className={path_Url === "/" ? "nav-link active" : "nav-link"}
                 aria-current="page"
-                href="#"
+                to=""
+                id="home"
                 style={{ color: colorChange ? "black" : "white" }}
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
+              <a className={path_Url === "/About" ? "nav-link active" : "nav-link"} href="#" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
+              <Link className={path_Url === "/project" ? "nav-link active" : "nav-link"} id="project" to="project" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
                 Project
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
