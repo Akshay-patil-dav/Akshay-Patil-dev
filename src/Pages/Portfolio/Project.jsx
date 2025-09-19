@@ -2,6 +2,7 @@ import React from "react";
 import ToggleCard from "../../Components/Cards/ToggleCard";
 import pic from "../../Components/img/pic.jpg"
 import rocket1 from "../../Components/img/rocket1.png"
+import ProjectCard from "../../Components/Cards/ProjectCard.jsx";
 
 
 const images = [
@@ -107,7 +108,8 @@ export default function Project() {
                     </div>
                 </section>
             </section>
-
+            
+                            <ProjectCard />
         </>
     );
 }

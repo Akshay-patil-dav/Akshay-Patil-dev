@@ -77,7 +77,7 @@ export default function Header() {
                 aria-current="page"
                 to=""
                 id="home"
-                style={{ color: colorChange ? "black" : "white" }}
+               style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}
               >
                 Home
               </Link>
