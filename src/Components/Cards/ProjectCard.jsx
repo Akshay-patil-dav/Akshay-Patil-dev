@@ -3,31 +3,27 @@ import React from 'react'
 export default function ProjectCard() {
     return (
         <>
-            <div className=" mt-5" id="journey-main-container">
 
-                <section className="py-5 bg-light" id="journey-header-section">
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-12 text-center">
-                                <h1 className="fw-bold mb-3 text-dark" id="journey-main-title">
-                                    Project Work
-                                </h1>
-                                <p className="lead text-muted mb-0" id="journey-subtitle">
-                                    Project's{" "}
-                                    <span className="text-primary fw-semibold">Developed</span> by
-                                    {" "}
-                                    <span className="text-primary fw-semibold">
-                                        Me
-                                    </span>{" "}
+            {/* <section className="min-vh-100 " > */}
+            <div className="container bg-light mw-100 p-5 mt-5">
+                <div className="row justify-content-center">
+                    <div className="col-12 text-center">
+                        <h1 className="fw-bold mb-3 text-dark" id="journey-main-title">
+                            Project Work
+                        </h1>
+                        <p className="lead text-muted mb-0" id="journey-subtitle">
+                            Project's{" "}
+                            <span className="text-primary fw-semibold">Developed</span> by
+                            {" "}
+                            <span className="text-primary fw-semibold">
+                                Me
+                            </span>{" "}
 
-                                </p>
-                            </div>
-                        </div>
+                        </p>
                     </div>
-                </section>
+                </div>
             </div>
-            <div className='min-vh-100 mt-5'>
-
+            <section className='container' style={{position:"relative", bottom:"100px"}}>
                 <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                         <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
@@ -42,8 +38,9 @@ export default function ProjectCard() {
                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
                     <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">...</div>
                 </div>
+            </section>
 
-            </div>
+
         </>
     )
 }
