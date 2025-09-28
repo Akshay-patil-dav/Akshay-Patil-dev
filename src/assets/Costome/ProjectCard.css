@@ -1,0 +1,82 @@
+/* Portfolio Section */
+
+.portfolio-section {
+    background: #fff;
+}
+
+
+/* Filter Buttons */
+
+.portfolio-filter-btn {
+    border-radius: 25px;
+    padding: 8px 18px;
+    border: 1px solid #ccc;
+    transition: all 0.3s;
+}
+
+.portfolio-filter-btn:hover {
+    background: #6c63ff;
+    color: #fff;
+}
+
+.active-filter-btn {
+    background: #6c63ff;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Card Styling */
+
+.portfolio-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-card-img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.portfolio-card-body {
+    padding: 15px;
+}
+
+.portfolio-card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.portfolio-description {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.portfolio-tech-list {
+    font-size: 0.8rem;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+
+/* Buttons */
+
+.portfolio-view-btn {
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.portfolio-code-btn {
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+
+/* Pagination */
+
+.portfolio-pagination .page-item.active .page-link {
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    color: #fff;
+}
