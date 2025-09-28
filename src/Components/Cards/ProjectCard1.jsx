@@ -125,7 +125,7 @@ const ProjectCard1 = () => {
                                         Short description about {project.name}. Showcase your best
                                         work here.
                                     </p>
-                                    <div className="  " id="cardbox_btn" >
+                                    <div className=" gap-2 " id="cardbox_btn" >
                                         <a
                                             href="#"
                                             className="btn  portfolio-view-btn text-white"
