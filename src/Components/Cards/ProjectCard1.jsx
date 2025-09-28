@@ -17,7 +17,8 @@ const ProjectCard1 = () => {
             name: "Project 2",
             category: "Back-End",
             tech: ["Node.js", "Express", "MongoDB"],
-            img: "https://cdn.dribbble.com/userupload/12732585/file/original-90d0b72ce795ef3565fa47cd3853b0b5.png?crop=0x0-2400x1800&format=webp&resize=400x300&vertical=center",
+            img: "https://private-user-images.githubusercontent.com/179327994/494886621-a771c046-2618-43ea-988d-d3bc1d039866.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTkwNzk3NTQsIm5iZiI6MTc1OTA3OTQ1NCwicGF0aCI6Ii8xNzkzMjc5OTQvNDk0ODg2NjIxLWE3NzFjMDQ2LTI2MTgtNDNlYS05ODhkLWQzYmMxZDAzOTg2Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkyOFQxNzEwNTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZDUzNjQ5YjZjM2E5ZmU3ODM0YmRkYjljYjk2NDIyMzU1NDdlNDAwNGMwNTllZjc5MzUzZjNkNjhhNjI5MGU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.dADV7VO3uJHOCmLnUnyQeUWS-FB72G095xAUQt8dzbw",
+            url:  "https://akshay-patil-dav.github.io/AI-Interview-Portal/"
         },
         {
             id: 3,
@@ -127,7 +128,7 @@ const ProjectCard1 = () => {
                                     </p>
                                     <div className=" gap-2 " id="cardbox_btn" >
                                         <a
-                                            href="#"
+                                            href={project.url}
                                             className="btn  portfolio-view-btn text-white"
                                             style={{ backgroundColor: "#6c63ff" }}
                                             id={`viewProject-${project.id}`}
