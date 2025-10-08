@@ -132,6 +132,7 @@ const ProjectCard1 = () => {
                                             className="btn  portfolio-view-btn text-white"
                                             style={{ backgroundColor: "#6c63ff" }}
                                             id={`viewProject-${project.id}`}
+                                            data-bs-toggle="modal" data-bs-target="#ViewProject"
                                         >
                                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
                                                 <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
@@ -155,7 +156,12 @@ const ProjectCard1 = () => {
                                 </div>
                             </div>
                         </div>
+
+
+
                     ))}
+
+                    
                 </div>
 
                 {/* Pagination */}
