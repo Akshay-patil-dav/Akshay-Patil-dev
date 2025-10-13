@@ -7,18 +7,18 @@ const ProjectCard1 = () => {
     const allProjects = [
         {
             id: 1,
-            name: "Project 1",
-            category: "Front-End",
-            tech: ["HTML", "CSS", "React"],
-            img: "https://cdn.dribbble.com/userupload/19426572/file/still-cec5b852446edbbd7d70746da9711ac9.png?resize=400x0",
+            name: "PoS Software",
+            category: "Full-Stack",
+            tech: ["HTML", "CSS", "js","PHP","Mysql"],
+            img: "https://private-user-images.githubusercontent.com/179327994/383390034-5145c83a-9ddb-48ef-9b19-c4f98b9bbe17.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjAzNjAyNzAsIm5iZiI6MTc2MDM1OTk3MCwicGF0aCI6Ii8xNzkzMjc5OTQvMzgzMzkwMDM0LTUxNDVjODNhLTlkZGItNDhlZi05YjE5LWM0Zjk4YjliYmUxNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxM1QxMjUyNTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YWQ2MzlkYTgxNjk4ZDIwMDI0YTk3YTVmMTY3NjI1MzAyZWJhNjU4NDk5ODcwODhlMmVhNjQ1NDdmM2YyYmQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.a1D6EsvrBCJvU9JjEAwQmMMvZZqIi2bIaq4YgyjFfXs",
         },
         {
             id: 2,
-            name: "Project 2",
-            category: "Back-End",
-            tech: ["Node.js", "Express", "MongoDB"],
-            img: "https://private-user-images.githubusercontent.com/179327994/494886621-a771c046-2618-43ea-988d-d3bc1d039866.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTkwNzk3NTQsIm5iZiI6MTc1OTA3OTQ1NCwicGF0aCI6Ii8xNzkzMjc5OTQvNDk0ODg2NjIxLWE3NzFjMDQ2LTI2MTgtNDNlYS05ODhkLWQzYmMxZDAzOTg2Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkyOFQxNzEwNTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZDUzNjQ5YjZjM2E5ZmU3ODM0YmRkYjljYjk2NDIyMzU1NDdlNDAwNGMwNTllZjc5MzUzZjNkNjhhNjI5MGU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.dADV7VO3uJHOCmLnUnyQeUWS-FB72G095xAUQt8dzbw",
-            url:  "https://akshay-patil-dav.github.io/AI-Interview-Portal/"
+            name: "Landing Page ",
+            category: "Front-End",
+            tech: ["React js", "Html", "Css","js"],
+            img: "https://private-user-images.githubusercontent.com/179327994/500505286-e956db0e-ba76-4b39-91ad-c7bcf3401f65.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjAzNjA2MTMsIm5iZiI6MTc2MDM2MDMxMywicGF0aCI6Ii8xNzkzMjc5OTQvNTAwNTA1Mjg2LWU5NTZkYjBlLWJhNzYtNGIzOS05MWFkLWM3YmNmMzQwMWY2NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxM1QxMjU4MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hZDY1YTUyZmEwMGM2NGE3OGJjMDAyNGM3N2U4MjUyZWMzOTc0YmJhNjc1MmRkYTM0NWMxY2I2NTBmYTg3NTkxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.aJsGD1daUoWg-SnQlCNcUo4NiEzxFidYK6I1yLDoA70",
+            url:  "https://auetechnology.netlify.app/#home"
         },
         {
             id: 3,
