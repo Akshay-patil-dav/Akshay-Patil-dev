@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from "react";
-import ProjectCard1 from './projectCard1';
+import ProjectCard1 from './projectCard1.jsx';
 
 export default function ProjectCard() {
     
