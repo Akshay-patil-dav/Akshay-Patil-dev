@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter , Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/Portfolio/HomePage.jsx";
 import Headers from "./Components/Header/Header.jsx";
 import Footer from "./Components/Header/Footer.jsx";
@@ -7,7 +7,7 @@ import Project from "./Pages/Portfolio/Project.jsx";
 export default function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Headers />}>
             <Route index element={<HomePage />} />
@@ -15,7 +15,7 @@ export default function App() {
             <Route path="/project" element={<Project />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </>
   );
