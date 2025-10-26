@@ -1,5 +1,5 @@
 import React from "react";
-import ToggleCard from "../../Components/Cards/ToggleCard";
+import ToggleCard from "../../Components/Cards/ToggleCard.jsx";
 import pic from "../../Components/img/pic.jpg"
 
 

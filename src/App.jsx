@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./Pages/Portfolio/HomePage";
-import Headers from "./Components/Header/Header";
-import Footer from "./Components/Header/Footer";
-import Project from "./Pages/Portfolio/Project";
+import HomePage from "./Pages/Portfolio/HomePage.jsx";
+import Headers from "./Components/Header/Header.jsx";
+import Footer from "./Components/Header/Footer.jsx";
+import Project from "./Pages/Portfolio/Project.jsx";
 
 export default function App() {
   return (
