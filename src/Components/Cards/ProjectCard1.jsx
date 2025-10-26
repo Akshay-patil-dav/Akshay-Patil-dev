@@ -22,10 +22,10 @@ const ProjectCard1 = () => {
         },
         {
             id: 3,
-            name: "Project 3",
-            category: "UI",
-            tech: ["Figma", "AdobeXD"],
-            img: "https://via.placeholder.com/400x250.png?text=Project+3",
+            name: "CRM",
+            category: "Front-End",
+            tech: ["JSX", "TSS", "React","Tailwind","css"],
+            img: "https://private-user-images.githubusercontent.com/179327994/505684990-71840c51-b409-4b0a-a465-304a11486d26.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjE0NTIwMTYsIm5iZiI6MTc2MTQ1MTcxNiwicGF0aCI6Ii8xNzkzMjc5OTQvNTA1Njg0OTkwLTcxODQwYzUxLWI0MDktNGIwYS1hNDY1LTMwNGExMTQ4NmQyNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAyNlQwNDA4MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMDZlOTg4ZDQ4Mzg2ZThiZDY1MGU5YWY4M2E3YmE1MjE1MTM1MWMxN2Q4ZTNkMTkzZTAwZTZlNzM2ZjZjZTdhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZMaU2-fqTjFceJCfJ7mENGSEFwYu3jKWkJ4uB3Okuz8",
         },
         {
             id: 4,
