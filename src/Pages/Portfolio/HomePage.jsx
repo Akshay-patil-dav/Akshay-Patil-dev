@@ -134,7 +134,7 @@ Main Banner END -->
 
 <!-- =======================
 Counter START --> */}
-<section className="py-0 py-xl-5 bg-transparent " >
+<section className="py-0 py-xl-5 bg-white " >
 	<div className="container">
 		<div className="row g-4">
 			{/* <!-- Counter item --> */}
