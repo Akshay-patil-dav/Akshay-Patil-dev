@@ -51,14 +51,7 @@ export default function AToggleCardpp() {
         </div>
       </section>
       <br/><br/>  <br/><br/>
-      <div className="Car-image mt-5">
-        <img src={car} alt=""
-        style={{
-        transition: "all 0.3s ease",
-        position: colorChange ? "fixed" : "absolute",
-      }}
-       />
-      </div>
+
       {/* Timeline Section */}
       <section className="py-5" id="journey-timeline-section">
         <div className="container">
