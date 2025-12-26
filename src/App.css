@@ -1,6 +1,8 @@
 @import url("./assets/Style.css");
 
-
+#journey-timeline-section {
+  background-color: white;
+}
 
 .logo {
   height: 6em;

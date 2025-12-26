@@ -83,20 +83,20 @@ export default function Header() {
               </Link>
             </li>
             <li className="nav-item">
-              <a className={path_Url === "/About" ? "nav-link active" : "nav-link"} href="#" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
+              <Link className={path_Url === "/About" ? "nav-link active" : "nav-link"} to="about" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link className={path_Url === "/project" ? "nav-link active" : "nav-link"} id="project" to="project" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
                 Project
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
                 Blog
               </a>
-            </li>
+            </li> */}
           </ul>
 
           <div className="d-flex" role="search">
