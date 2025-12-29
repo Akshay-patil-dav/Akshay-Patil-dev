@@ -45,3 +45,7 @@
   background-color: transparent !important;
   z-index: 1;
 }
+
+.position-absolute.top-0.end-0.z-index-2.mt-6.me-n6.d-lg-block {
+  z-index: -2 !importantc;
+}

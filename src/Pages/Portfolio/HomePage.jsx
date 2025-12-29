@@ -31,7 +31,7 @@ export default function HomePage() {
           />
         </div>
         {/* <!-- Decoration --> */}
-        <div className="position-absolute top-0 end-0 z-index-2 mt-6 me-n6 d-none d-lg-block">
+        <div className="position-absolute top-0 end-0 z-index-2 mt-6 me-n6  d-lg-block" style={{ zIndex:"-1 !important"}}>
           <img
             src="https://folio.webestica.com/assets/images/elements/grad-shape/05.png"
             className="h-250px"
@@ -39,7 +39,7 @@ export default function HomePage() {
           />
         </div>
         {/* <!-- Decoration --> */}
-        <div className="position-absolute top-50 start-0 mt-n6 d-none d-lg-block">
+        <div className="position-absolute top-50 start-0 mt-n6  d-lg-block"  style={{display:"block !important", zIndex:"-1 !important"}}>
           <img
             src="https://folio.webestica.com/assets/images/elements/clay-decoration.png"
             className="h-300px"
