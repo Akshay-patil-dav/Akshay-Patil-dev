@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet , Link , useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { path } from "framer-motion/client";
+import CV from "../Header/CV.pdf";
 
 export default function Header() {
 
@@ -92,23 +93,19 @@ export default function Header() {
                 Project
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: colorChange ? "rgb(114, 90, 235)" : "white" }}>
-                Blog
-              </a>
-            </li> */}
           </ul>
 
           <div className="d-flex" role="search">
-            <button
-              className="btn text-white"
-              type="submit"
+            <a
+              href={CV}
+              download="Akshay-Patil-Resume.pdf"
+              className="btn text-white mx-2"
               style={{ backgroundColor: "rgb(114 90 235)" }}
             >
               <b>
                 Download CV <i className="bi mx-1 bi-arrow-right"></i>
               </b>
-            </button>
+            </a>
           </div>
         </div>
       </div>
