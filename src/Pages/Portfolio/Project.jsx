@@ -61,7 +61,7 @@ export default function Project() {
                             <div className="d-flex justify-content-center flex-wrap gap-3">
 
                                 <a
-                                    href=""
+                                    href="https://github.com/Akshay-patil-dav"
                                     target="_blank"
                                     className="btn btn-dark icon-link icon-link-hover mb-0"
                                 >

@@ -1,6 +1,7 @@
 import React from "react";
 import ToggleCard from "../../Components/Cards/ToggleCard.jsx";
 import pic from "../../Components/img/pic.jpg"
+import CV from  "../../Components/Header/CV.pdf";
 
 
 const images = [
@@ -105,7 +106,9 @@ export default function HomePage() {
 </svg>
                 </a>
                 <a
-                  href=""
+                 href={CV}
+                              download="Akshay-Patil-Resume.pdf"
+                            
                   target="_blank"
                   className="btn btn-dark icon-link icon-link-hover mb-0"
                 >
@@ -157,8 +160,8 @@ Counter START --> */}
 					<span className="display-6 lh-1 text-blue mb-0"><i class="bi bi-building-check"></i></span>
 					<div className="ms-4 h6 fw-normal mb-0">
 						<div className="d-flex">
-							<h5 className="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="200" data-purecounter-delay="200">1</h5>
-							<span className="mb-0 h5">+ / year</span>
+							<h5 className="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="200" data-purecounter-delay="200">1.3</h5>
+							<span className="mb-0 h5 px-2">  year</span>
 						</div>
 						<p className="mb-0">Work Experience</p>
 					</div>
