@@ -45,3 +45,11 @@
   background-color: transparent !important;
   z-index: 1;
 }
+  #navbarSupportedContent {
+    display: flex !important;
+}
+@media (max-width: 991px) {
+  #navbarSupportedContent {
+    display: none !important;
+}
+}

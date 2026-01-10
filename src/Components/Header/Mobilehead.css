@@ -1,0 +1,93 @@
+
+/* Header Inner */
+.mh-header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+}
+
+/* Logo */
+#mh-logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Hamburger */
+#mh-hamburger {
+  width: 28px;
+  cursor: pointer;
+}
+
+.mh-hamburger span {
+  display: block;
+  height: 3px;
+  background: #ffffff;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+/* Hamburger animation */
+.mh-hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.mh-hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.mh-hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Mobile Menu */
+#mh-mobile-menu {
+  background: #020617;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+#mh-mobile-menu.show {
+  max-height: 350px;
+}
+
+/* Menu List */
+.mh-menu-list {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.mh-menu-list li {
+  margin-bottom: 15px;
+}
+
+.mh-menu-list a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* CV Button */
+.mh-cv-wrapper {
+  padding: 0 20px 20px;
+}
+
+.mh-download-cv {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  background: #38bdf8;
+  color: #020617;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Desktop Hide */
+@media (min-width: 768px) {
+  #mh-hamburger,
+  #mh-mobile-menu {
+    display: none;
+  }
+}

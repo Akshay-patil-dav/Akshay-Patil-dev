@@ -3,6 +3,8 @@ import { Outlet , Link , useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { path } from "framer-motion/client";
 import CV from "../Header/CV.pdf";
+import { MobileStepper } from "@mui/material";
+import Mobilehead from "./Mobilehead.jsx";
 
 export default function Header() {
 
@@ -110,6 +112,8 @@ export default function Header() {
         </div>
       </div>
     </nav>
+    <Mobilehead/>
+
       <Outlet />
     </>
   );
